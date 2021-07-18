@@ -1,0 +1,354 @@
+/*
+Theme Name: Favor Forever
+Theme URI: http://www.favorforever.com
+Version: 1.0
+Description: This theme was built for Favor Forever to showcase their handmade products and was designed and developed by the Sarah Silvia
+Author: Sarah Silvia
+Author URI: http://www.sarahesilvia.com
+Template: Divi
+*/
+
+@import '../Divi/style.css';
+
+@font-face {
+	font-family: 'Simply Sweet Serif';
+	src: url('fonts/Simply_Sweet_Serif.eot');
+	src: local('☺'), url('fonts/Simply_Sweet_Serif.woff') format('woff'), url('fonts/Simply_Sweet_Serif.ttf') format('truetype'), url('fonts/Simply_Sweet_Serif.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+hr{
+	margin: 2em 0 4em 0;
+}
+
+hr:after{
+	content: '';
+	display: block;
+	width: 50px;
+	height: 30px;
+	background-image: url('assets/images/logo-mark.svg');
+	background-color: #fff;
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	top: -15px;
+}
+
+@media(min-width:768px){
+	.et_header_style_split #et_top_search{
+		top: -7px;
+	}
+}
+
+.home .et_pb_section {
+	padding-top: 0;
+}
+
+@media(min-width:768px){
+	.home .et_pb_text_9 .et_pb_text_inner{
+		padding-left: 5em;
+	}
+}
+
+.home .ff-cta-box {
+	min-height: 343px;
+	padding: 1.2em 2em 0 2em;
+}
+
+@media(min-width:992px){
+	.home .ff-cta-box {
+		min-height: 356px;
+	}
+}
+
+.home .ff-cta-box h3{
+	font-size: 2em;
+	font-family: 'Simply Sweet Serif', 'Arvo';
+}
+
+#main-header {
+	box-shadow: none;
+}
+
+.et_header_style_split #et-top-navigation nav>ul>li>a{
+	font-size: 2em;
+	font-family: 'Simply Sweet Serif', 'Montserrat', 'Arvo', sans-serif;
+}
+
+.et_header_style_split #et-top-navigation nav>ul>li>a:hover,
+.et_header_style_split #et-top-navigation nav>ul>li>a:active,
+.et_header_style_split #et-top-navigation nav>ul>li>a:focus {
+	opacity: 1;
+	color: #203d76;
+}
+
+.et_header_style_split #et-top-navigation nav>ul>li.cta-btn>a{
+	background: #F7931E;
+	color: #fff;
+	padding: .5em 1em;
+	border-radius: 4px;
+}
+
+.et_header_style_split #et-top-navigation nav>ul>li.cta-btn>a:hover,
+.et_header_style_split #et-top-navigation nav>ul>li.cta-btn>a:active,
+.et_header_style_split #et-top-navigation nav>ul>li.cta-btn>a:focus{
+	background: #d8811b;
+}
+
+.et_pb_row--no-padding {
+	padding: 0;
+}
+
+.ff-cta-box {
+	text-align: center;
+}
+
+.ff-cta-box p{
+	font-size: .9em;
+	line-height: 1.2;
+}
+
+.ff-cta-box input{
+	width: 100%;
+	height: 35px;
+	font-weight: 300;
+	font-size: 1em;
+	border-radius: 3px;
+	margin-bottom: 8px;
+	padding-left: .5em;
+}
+
+.ff-cta-box .button{
+	color: #fff;
+	font-weight: bold;
+	background: #F7931E;
+	border-color: #F7931E;
+	padding-left: 0;
+	-webkit-transition: .25s all ease;
+	-moz-transition: .25s all ease;
+	transition: .25s all ease;
+}
+
+.ff-cta-box .button:hover,
+.ff-cta-box .button:active,
+.ff-cta-box .button:focus{
+	background: #d07c1a;
+	border-color: #d07c1a;
+	cursor: pointer;
+}
+
+.et_pb_row.ff-product-row{
+	padding-bottom: 0;
+}
+
+.et_pb_row.ff-hr-wrapper {
+	padding-top: 0;
+}
+
+.et_pb_gutters3 .et_pb_column .et_pb_module.ff-product-title-wrapper{
+	margin-bottom: 0;
+}
+
+.et_pb_gutters3 .et_pb_column .et_pb_module.ff-product-title-wrapper h3{
+	color: #203d76;
+}
+
+.home .et_pb_section_0{
+	position: relative;
+}
+
+.home .et_pb_section_0:after{
+	content:'';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 160px;
+	background: #87d2d7;
+	width: 100%;
+	height: 300px;
+	z-index: 1;
+}
+
+.ff-icon-link > a {
+	opacity: 1;
+	display: block;
+}
+
+.ff-icon-link > a:hover,
+.ff-icon-link > a:active,
+.ff-icon-link > a:focus {
+	opacity: .75;
+}
+
+.ff-icon-link + .et_pb_text a:active,
+.ff-icon-link + .et_pb_text a:focus,
+.ff-icon-link + .et_pb_text a:hover {
+	opacity: .75;
+}
+
+.et_pb_row.ff-product-row .woocommerce.columns-1 ul.products li.product{
+	margin-bottom: 0;
+}
+
+@media(min-width: 981px){
+	
+	.home.et_pb_gutters3 .ff-product-row .et_pb_column_2_3 .et_pb_shop_grid .woocommerce ul.products li.product {
+		width: 32%;
+		clear: none;
+		margin-right: 2%;
+		margin-bottom: 1em;
+	}
+
+	.home.et_pb_gutters3 .ff-product-row .et_pb_column_2_3 .et_pb_shop_grid .woocommerce ul.products li.product:last-child{
+		margin-right: 0;
+	}
+
+	.home.et_pb_gutters3 .ff-hero-row .et_pb_column_2_3.et_pb_column{
+		width: 66.833%;
+		margin-right: 3.5%;
+	}
+}
+
+.home .et_pb_text_10 p{
+	padding: 0;
+}
+
+body.home .gform_wrapper label.gfield_label+div.ginput_container{
+	margin: 0;
+	padding: 0;
+}
+
+.home .gform_wrapper .ginput_complex label{
+	margin: 0;
+	padding: 0;
+}
+
+@media(min-width: 768px){
+	.gform_wrapper form li#field_1_2,
+	.gform_wrapper form li#field_1_3 {
+		width: 50%;
+    	clear: none;
+    	float: left;
+    	vertical-align: top;
+	}
+}
+
+.gform_wrapper textarea.medium#input_1_4{
+	height: 80px;
+	margin: 0;
+}
+
+#gform_wrapper_1.gform_wrapper .gform_footer{
+	padding: 0;
+	margin: 0;
+}
+
+#page-container .gform_wrapper .top_label .gfield_label{
+	margin: 0;
+}
+
+html .gform_wrapper .gform_footer input.button {
+	width: 100%;
+	display: block;
+	color: #fff;
+	background: #F7931E;
+	border-color: #F7931E;
+	padding: .5em 1em;
+	border-radius: 3px;
+	-webkit-transition: .25s all ease;
+	-moz-transition: .25s all ease;
+	transition: .25s all ease;
+}
+
+html .gform_wrapper .gform_footer input.button:hover,
+html .gform_wrapper .gform_footer input.button:active,
+html .gform_wrapper .gform_footer input.button:focus {
+	background: #d07c1a;
+	border-color: #d07c1a;
+	cursor: pointer;
+}
+
+.alert--success{
+	margin-top: .5em;
+	padding: .5em .75em;
+	color: #308014;
+	background: #BCED91;
+}
+
+/*FOOTER*/
+#nav_menu-2{
+	padding-top: 2em;
+	border-top: 3px dashed #999;
+	border-bottom: 3px dashed #999;
+}
+
+@media(min-width: 768px){
+	#nav_menu-2{
+		border: none;
+	}
+}
+
+@media(min-width: 992px){
+	#nav_menu-2{
+		padding-top: 0;
+		border-left: 3px dashed #999;
+		border-right: 3px dashed #999;
+	}
+}
+
+#main-footer img {
+	margin: 1.5em auto 0 auto;
+	max-width: 140px;
+}
+
+#main-footer #footer-widgets{
+	padding-top: 2em;
+}
+
+#main-footer #footer-widgets .footer-widget{
+	margin: 0;
+}
+
+#main-footer #footer-widgets {
+	color: #333;
+	text-align: center;
+}
+
+#main-footer #footer-widgets .footer-widget h4{
+	color: #333;
+}
+
+#main-footer #footer-widgets .footer-widget .et_pb_widget{
+	float: none;
+	width: 100%;
+}
+
+footer #footer-widgets .footer-widget ul{
+	margin-top: .75em;
+}
+
+footer #footer-widgets .footer-widget ul li {
+	margin-bottom: .75em;
+	list-style: none;
+}
+
+footer #footer-widgets .footer-widget ul li:before{
+	display: none;
+}
+
+footer #footer-widgets .footer-widget a, 
+footer #footer-widgets .footer-widget li a{ 
+	color: #203d76;
+	font-size: 1.2em;
+	text-decoration: underline;
+}
+
+footer #footer-widgets .footer-widget li a:hover,
+footer #footer-widgets .footer-widget li a:focus,
+footer #footer-widgets .footer-widget li a:active{
+	color: #203d76;
+}
